@@ -21,6 +21,8 @@
 @media (max-width: 280px) {
     .participate_button {
       width: 15rem;
+      padding: 0.5rem;
+      font-size: 0.85rem;
     }
   
   }
