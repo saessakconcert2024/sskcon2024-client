@@ -1,0 +1,6 @@
+.down_icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5px;
+}
