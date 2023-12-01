@@ -19,7 +19,6 @@ export default function RootLayout({
         <Header />
         {children}
       </body>
-      <body className={suitRegular.className}>{children}</body>
     </html>
   )
 }
