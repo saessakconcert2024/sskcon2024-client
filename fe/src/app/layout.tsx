@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
 import { suitRegular } from '@/_styles/fonts/fonts'
+import Header from '@/taeheon/_components/Header/Header'
 
 export const metadata: Metadata = {
   title: '새싹콘서트',
@@ -14,7 +15,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={suitRegular.className}>{children}</body>
+      <body className={suitRegular.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
