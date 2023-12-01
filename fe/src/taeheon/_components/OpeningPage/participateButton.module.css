@@ -1,0 +1,13 @@
+
+
+.participate_button{
+    width: 20rem;
+    background: #00A342;
+    padding: 0.7rem;
+    border :none;
+    color :#fff;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 1rem 0;
+}

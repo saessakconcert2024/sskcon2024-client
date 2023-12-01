@@ -1,0 +1,8 @@
+.description_container {
+    position: absolute;
+    bottom: 5%;
+    left: 1.5rem;
+    right: 1.5rem; 
+    color: #fff;
+    z-index: 5;
+}
