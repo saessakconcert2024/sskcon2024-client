@@ -1,7 +1,12 @@
-
+.particiapte_button_container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .participate_button{
-    width: 20rem;
+    width: 22rem;
     background: #00A342;
     padding: 0.7rem;
     border :none;
@@ -11,3 +16,11 @@
     font-size: 1rem;
     margin: 1rem 0;
 }
+
+
+@media (max-width: 280px) {
+    .participate_button {
+      width: 15rem;
+    }
+  
+  }

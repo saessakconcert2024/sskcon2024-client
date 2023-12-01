@@ -10,12 +10,14 @@ export default function ParticipateButton() {
   }
 
   return (
-    <button
-      onClick={openRegisterForm}
-      type="button"
-      className={`${classes.participate_button} ${suitRegular}`}
-    >
-      참여하기 (~12월29일마감)
-    </button>
+    <div className={classes.particiapte_button_container}>
+      <button
+        onClick={openRegisterForm}
+        type="button"
+        className={`${classes.participate_button} ${suitRegular}`}
+      >
+        참여하기 (~12월29일마감)
+      </button>
+    </div>
   )
 }
