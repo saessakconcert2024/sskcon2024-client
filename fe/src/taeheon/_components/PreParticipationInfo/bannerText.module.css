@@ -1,0 +1,11 @@
+.banner_text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+
+.banner_text{
+    color :#00A342;
+    font-size: 1.5rem;
+}

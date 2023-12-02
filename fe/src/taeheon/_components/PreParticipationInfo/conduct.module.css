@@ -1,0 +1,36 @@
+.container{
+    width: 80%;
+    margin-top: 1.5rem;
+}
+
+.first{
+    margin-top: 2rem;
+}
+
+.text{
+    text-align: center;
+    color: #333333;
+    font-size: 0.8rem;
+}
+
+.wrapper{
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.link{
+    text-align: center;
+    color: #333333;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.link :hover{
+    opacity: 0.7;
+}
