@@ -2,10 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1rem 0;
+    margin-bottom: 3rem;
 }
 
 .banner_text{
     color :#00A342;
     font-size: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+    .banner_text {
+        font-size: 3rem;
+    }
 }

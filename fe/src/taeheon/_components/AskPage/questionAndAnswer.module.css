@@ -37,3 +37,9 @@
       transform: translateY(0);
     }
   }
+
+  @media (min-width: 768px) {
+    .container {
+        font-size: 1.3rem;
+    }
+}
