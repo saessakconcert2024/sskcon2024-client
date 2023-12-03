@@ -28,6 +28,7 @@ export default function QuestionAccordion() {
               question={item.question}
               answer={item.answer}
               active={!!openSections[item.id]}
+              highlightText={item.highlightText}
               onSectionClick={() => onSectionClick(item.id)}
             />
           ))}

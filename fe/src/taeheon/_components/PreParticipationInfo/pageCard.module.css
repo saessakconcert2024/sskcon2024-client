@@ -1,20 +1,15 @@
 .page_card {
     width: 100vw;
     height: auto;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin-top: 5rem;
-    animation: fadeIn 0.5s ease-in-out forwards;
+    margin-top: 2rem;
+    opacity: 0;
+    transition: all 1s ease;
 }
 
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.page_card.animation {
+    opacity: 1;
 }

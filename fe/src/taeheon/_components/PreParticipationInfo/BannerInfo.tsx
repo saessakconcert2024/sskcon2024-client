@@ -5,11 +5,9 @@ export default function BannerInfo() {
   return (
     <div className={classes.container}>
       <div className={`${classes.text_container}`}>
+        <p className={classes.text}>새싹콘은 주니어 개발자라면 누구나</p>
         <p className={classes.text}>
-          새싹콘은 프리코스 6기를 완주한 예비 크루라면
-        </p>
-        <p className={classes.text}>
-          누구나 자유롭게 참여할 수 있는 토크콘서트이에요.
+          자유롭게 참여할 수 있는 토크콘서트이에요.
         </p>
       </div>
       <div className={classes.text_container}>

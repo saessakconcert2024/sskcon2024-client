@@ -1,22 +1,23 @@
 'use client'
 
+import React from 'react'
 import { suitRegular } from '@/_styles/fonts/fonts'
-import classes from './participateButton.module.css'
+import classes from './button.module.css'
 
-export default function ParticipateButton() {
+export default function Button() {
   const openRegisterForm = () => {
     const url = 'https://google.com' // 구글폼 주소
     window.open(url, '_blank')
   }
 
   return (
-    <div className={classes.particiapte_button_container}>
+    <div className={classes.container}>
       <button
         onClick={openRegisterForm}
         type="button"
-        className={`${classes.participate_button} ${suitRegular}`}
+        className={`${classes.button} ${suitRegular}`}
       >
-        참여하기 (~12월20일마감)
+        참가 신청
       </button>
     </div>
   )

@@ -2,12 +2,14 @@ import { suitBold } from '@/_styles/fonts/fonts'
 import classes from './questionAndAnswer.module.css'
 import DownArrowIcon from '../Icons/DownArrowIcon'
 import UpArrowIcon from '../Icons/UpArrowIcon'
+import HighlightText from './HighlightText'
 
 type QuestionAndAnswerProps = {
   id: number
   question: string
   answer: string
   active: boolean
+  highlightText: string[]
   onSectionClick: (id: number) => void
 }
 
@@ -17,11 +19,29 @@ export default function QuestionAndAnswer({
   answer,
   active,
   onSectionClick,
+  highlightText,
 }: QuestionAndAnswerProps) {
   const handleKeyPress = (event: React.KeyboardEvent<HTMLDivElement>) => {
     if (event.key === 'Enter') {
       onSectionClick(id)
     }
+  }
+
+  const renderAnswer = () => {
+    const highlights = highlightText || []
+
+    const parts = answer.split(new RegExp(`(${highlights.join('|')})`, 'gi'))
+
+    return parts.map((part, index) =>
+      highlights.some(
+        (highlight) => highlight.toLowerCase() === part.toLowerCase(),
+      ) ? (
+        // eslint-disable-next-line react/no-array-index-key
+        <HighlightText key={index} text={part} />
+      ) : (
+        part
+      ),
+    )
   }
 
   return (
@@ -41,7 +61,7 @@ export default function QuestionAndAnswer({
           active ? classes.active : ''
         }`}
       >
-        {answer}
+        {renderAnswer()}
       </div>
     </div>
   )

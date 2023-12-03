@@ -9,7 +9,7 @@ const MOCK_ALERT_LIST = [
   },
   {
     id: 3,
-    content: '모든 참가자가 동등한 컨퍼런스를 지향합니다.',
+    content: '모든 참가자가 동등한 위치에서 교류를 지향합니다.',
   },
   {
     id: 4,

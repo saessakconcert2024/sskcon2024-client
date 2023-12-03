@@ -1,6 +1,5 @@
 .container{
     width: 80%;
-    margin-top: 1.5rem;
 }
 
 .first{
@@ -11,15 +10,28 @@
     text-align: center;
     color: #333333;
     font-size: 0.8rem;
+    margin: 0.3rem 0;
 }
 
 .wrapper{
-    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+
 }
+
+/* .link_container{
+    margin-bottom: 1rem;
+} */
 
 .link{
     text-align: center;
@@ -29,6 +41,11 @@
     background: none;
     border: none;
     cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.highligt{
+    color: #00A342;
 }
 
 .link :hover{
@@ -37,10 +54,15 @@
 
 
 @media (min-width: 768px) {
+
+
     .text {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .link{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+    }
+    .link_container{
+        margin-bottom: 1rem;
     }
 }
