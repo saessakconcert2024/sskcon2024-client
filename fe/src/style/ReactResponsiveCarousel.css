@@ -1,0 +1,13 @@
+.carousel .slide {
+  display: grid;
+  justify-items: center;
+}
+
+.carousel .control-dots {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-root {
+  width: 550px;
+}
