@@ -56,7 +56,7 @@ const MOCK_LIST = [
         id: 8,
         question: '당일 어떻게 입장하나요?',
         answer: '행사장소에서 Staff의 안내를 따라주세요.',
-        highlightText: ['행사장소', 'Staff의 안내'],
+        highlightText: ['Staff의 안내'],
       },
     ],
   },
