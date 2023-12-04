@@ -9,7 +9,8 @@
     position: relative;
     display: flex;
     align-items: center;
-    animation: fadeIn 0.5s ease-in-out forwards;
+    opacity: 0;
+    transition: all 0.3s ease;
 }
 
 .banner_image_container::before {
@@ -24,12 +25,6 @@
 
 }
 
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.banner_image_container.animation {
+    opacity: 1;
 }

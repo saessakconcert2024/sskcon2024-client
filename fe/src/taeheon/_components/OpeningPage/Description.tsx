@@ -4,7 +4,11 @@ import classes from './description.module.css'
 export default function Description() {
   return (
     <>
-      <h1 className={`${suitExtraBold} ${classes.main_text}`}>새싹콘서트</h1>
+      <div className={classes.logo_container}>
+        <h1 className={`${suitExtraBold} ${classes.main_text}`}>새싹콘서트</h1>
+        <h4 className={classes.year}>2024</h4>
+      </div>
+
       <div className={classes.section}>
         <p className={`${suitRegular} ${classes.sub_text}`}>
           하나의 새싹이 나무로 자라나기 위해,
