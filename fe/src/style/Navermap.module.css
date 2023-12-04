@@ -1,0 +1,38 @@
+.mapContainer {
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 470px;
+  height: 450px;
+  border: 1.5px solid rgb(217 217 217);
+}
+
+.mapSource {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(251 251 251);
+}
+
+.mapDescription {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  border-top: 1.5px solid rgb(217 217 217);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: rgb(251 251 251);
+}
+
+.mapDescription span {
+  color: rgb(0 163 66);
+  font-weight: 700;
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+}
+
+.mapDescription p {
+  font-size: 0.9rem;
+}
