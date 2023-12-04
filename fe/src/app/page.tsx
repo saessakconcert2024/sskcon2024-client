@@ -1,3 +1,15 @@
+import OpeningPageComponent from '@/taeheon/_components/OpeningPage/OpeningPageComponent'
+import AskPageComponent from '@/taeheon/_components/AskPage/AskPageComponent'
+import PreParticipationInfoPageComponent from '@/taeheon/_components/PreParticipationInfo/PreParticipationInfoPageComponent'
+import Footer from '@/taeheon/_components/Footer/Footer'
+
 export default function Home() {
-  return <div>여기에 각 개발 된 컴포넌트 임포트</div>
+  return (
+    <>
+      <OpeningPageComponent />
+      <AskPageComponent />
+      <PreParticipationInfoPageComponent />
+      <Footer />
+    </>
+  )
 }
