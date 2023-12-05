@@ -18,10 +18,12 @@ export default function RootLayout({
         <script
           type="text/javascript"
           src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NAVER_MAP_API_KEY}`}
+          async
         />
         <script
           type="text/javascript"
           src={`https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=${process.env.NAVER_MAP_API_KEY}=geocoder`}
+          async
         />
       </head>
       <body className={suitRegular.className}>{children}</body>
