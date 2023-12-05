@@ -1,3 +1,22 @@
+import NaverMap from '@/components/NaverMap'
+import Session from '@/components/Session'
+
+declare global {
+  interface Window {
+    naver: any
+  }
+}
+
 export default function Home() {
-  return <div>여기에 각 개발 된 컴포넌트 임포트</div>
+  return (
+    <div
+      style={{
+        display: 'grid',
+        justifyItems: 'center',
+      }}
+    >
+      <Session />
+      <NaverMap />
+    </div>
+  )
 }
