@@ -11,22 +11,9 @@ import '../style/ReactResponsiveCarousel.css'
 export default function SessionCarousel() {
   return (
     <div className={style.carouselContainer}>
-      <Carousel
-        emulateTouch
-        swipeable
-        dynamicHeight
-        showStatus={false}
-        showArrows={false}
-      >
+      <Carousel emulateTouch swipeable showStatus={false} showArrows={false}>
         {SESSION_COMMENTS.map(({ title, comments }, idx) => (
-          <div
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              rowGap: '20px',
-              alignItems: 'center',
-            }}
-          >
+          <div className={style.carouselItem}>
             <h1 className={suitExtraBold.className}>Session{idx + 1}</h1>
             <SessionSlide title={title} comments={comments} />
           </div>
