@@ -6,7 +6,7 @@ export interface UserType {
 export const USER = {
   sessak: {
     profileImg: '🌱​',
-    name: '새싹이',
+    name: '새싹',
   },
 
   namu: {
