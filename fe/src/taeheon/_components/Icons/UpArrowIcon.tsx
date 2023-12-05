@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import UpArrowIconSrc from 'public/images/UpArrowIcon.svg'
+import { UpArrowIconSrc } from '../../../../public/Images'
 import classes from './upIcon.module.css'
 
 export default function UpArrowIcon() {

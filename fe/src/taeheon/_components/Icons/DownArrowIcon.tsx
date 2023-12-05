@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import DownArrowIconSrc from 'public/images/DownArrowIcon.svg'
+import { DownArrowIconSrc } from '../../../../public/Images'
 import classes from './downIcon.module.css'
 
 export default function DownArrowIcon() {
