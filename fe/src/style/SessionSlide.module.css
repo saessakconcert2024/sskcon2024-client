@@ -5,7 +5,6 @@
   flex-direction: column;
   border-radius: 1rem;
   border: 2px solid rgb(240 240 240);
-  width: 420px;
 }
 
 .sessionSlideHeader {
@@ -19,10 +18,10 @@
 
 .sessionSlideContent {
   display: grid;
-  justify-content: center;
   row-gap: 32px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .commentContainer {
@@ -42,7 +41,7 @@
 
 .oddComment {
   display: flex;
-
+  justify-content: right;
   column-gap: 12px;
   text-align: right;
   letter-spacing: -1.5px;
@@ -57,13 +56,13 @@
 
 .commentContent {
   display: grid;
+  max-width: 80%;
   row-gap: 8px;
-  width: 300px;
-  font-size: 14px;
+  font-size: 16px;
   word-break: keep-all;
 }
 
 .commentContent span {
   font-weight: 700;
-  font-size: 15px;
+  font-size: 17px;
 }

@@ -9,5 +9,5 @@
 }
 
 .carousel-root {
-  width: 550px;
+  max-width: 70%;
 }
