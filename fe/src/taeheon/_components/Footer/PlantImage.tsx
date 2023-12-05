@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import PlantImageSrc from 'public/images/plant.svg'
+import { PlantImageSrc } from '../../../../public/Images'
 import classes from './plantImage.module.css'
 
 export default function PlantImage() {
