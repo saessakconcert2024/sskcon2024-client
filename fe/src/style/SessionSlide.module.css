@@ -1,0 +1,68 @@
+.sessionSlideContainer {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 2px solid rgb(240 240 240);
+}
+
+.sessionSlideHeader {
+  width: 100%;
+  background-color: rgb(244 244 244);
+  color: rgb(0 163 66);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 14px;
+}
+
+.sessionSlideContent {
+  display: grid;
+  row-gap: 32px;
+  padding: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.commentContainer {
+  display: flex;
+}
+
+.commentProfile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(230 230 230);
+  border-radius: 9999px;
+  font-size: 22px;
+}
+
+.oddComment {
+  display: flex;
+  justify-content: right;
+  column-gap: 12px;
+  text-align: right;
+  letter-spacing: -1.5px;
+}
+
+.evenComment {
+  display: flex;
+  column-gap: 12px;
+  text-align: left;
+  letter-spacing: -1.5px;
+}
+
+.commentContent {
+  display: grid;
+  max-width: 80%;
+  row-gap: 8px;
+  font-size: 16px;
+  word-break: keep-all;
+}
+
+.commentContent span {
+  font-weight: 700;
+  font-size: 17px;
+}
