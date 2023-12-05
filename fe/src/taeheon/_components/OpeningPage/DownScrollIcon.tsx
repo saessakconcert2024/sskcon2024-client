@@ -1,7 +1,7 @@
 'use client'
 
-import DownIconSrc from 'public/images/DownArrowIcon.svg'
 import Image from 'next/image'
+import { DownArrowIconSrc } from '../../../../public/Images'
 import classes from './downScrollIcon.module.css'
 
 export default function DownScrollIcon() {
@@ -17,7 +17,7 @@ export default function DownScrollIcon() {
       <Image
         className={classes.image}
         onClick={handleClick}
-        src={DownIconSrc}
+        src={DownArrowIconSrc}
         width={30}
         height={30}
         alt="아이콘"
