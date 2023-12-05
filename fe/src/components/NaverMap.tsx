@@ -34,13 +34,15 @@ export default function NaverMap() {
   }, [])
 
   return (
-    <div className={style.mapContainer}>
-      <div ref={mapDiv} className={style.mapSource} />
-      <div className={style.mapDescription}>
-        <span>{DESTINATION.name}</span>
-        <div>
-          <p>{DESTINATION.detail}</p>
-          <p>{DESTINATION.room}</p>
+    <div className={style.mapWrapper}>
+      <div className={style.mapContainer}>
+        <div ref={mapDiv} className={style.mapSource} />
+        <div className={style.mapDescription}>
+          <span>{DESTINATION.name}</span>
+          <div>
+            <p>{DESTINATION.detail}</p>
+            <p>{DESTINATION.room}</p>
+          </div>
         </div>
       </div>
     </div>
