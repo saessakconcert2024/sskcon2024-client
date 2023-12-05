@@ -1,0 +1,16 @@
+.main_text_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.main_text{
+    color :#00A342
+}
+
+@media (min-width: 768px) {
+    .main_text {
+        font-size: 2rem;
+    }
+}

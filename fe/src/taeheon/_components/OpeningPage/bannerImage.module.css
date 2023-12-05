@@ -1,0 +1,30 @@
+.banner_image_container {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    background-image: url('/Images/BannerImage.jpeg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.banner_image_container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+
+}
+
+.banner_image_container.animation {
+    opacity: 1;
+}

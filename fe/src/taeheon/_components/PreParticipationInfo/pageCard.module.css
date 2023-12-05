@@ -1,0 +1,15 @@
+.page_card {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    opacity: 0;
+    transition: all 1s ease;
+}
+
+.page_card.animation {
+    opacity: 1;
+}

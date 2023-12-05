@@ -1,0 +1,41 @@
+.header_container {
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    background-color: #fff;
+    animation: fadeIn 0.5s ease-in-out forwards;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px;
+}
+
+.logo_image_container{
+    margin: 0 1rem;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: flex-start;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+@media (max-width: 280px) {
+    .image{
+        width: 130px;
+    }
+
+
+}
