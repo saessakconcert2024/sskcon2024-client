@@ -3,7 +3,7 @@
   flex-direction: column;
   border-radius: 1rem;
   overflow: hidden;
-  width: 470px;
+  width: 420px;
   height: 450px;
   border: 1.5px solid rgb(217 217 217);
 }
@@ -31,8 +31,10 @@
   font-weight: 700;
   font-size: 1.125rem; /* 18px */
   line-height: 1.75rem; /* 28px */
+  letter-spacing: -1.5px;
 }
 
 .mapDescription p {
   font-size: 0.9rem;
+  letter-spacing: -1.5px;
 }
