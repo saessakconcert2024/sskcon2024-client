@@ -27,7 +27,6 @@ export default function RootLayout({
           async
         />
       </head>
-      <body className={suitRegular.className}>{children}</body>
       <body className={suitRegular.className}>
         <Header />
         {children}
