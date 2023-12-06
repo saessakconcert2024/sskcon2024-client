@@ -10,7 +10,7 @@ import style from '../style/Carousel.module.css'
 import '../style/ReactResponsiveCarousel.css'
 
 export default function SessionCarousel() {
-  const [isCenterMode, setIsCenterMode] = useState(window.innerWidth > 768)
+  const [isCenterMode, setIsCenterMode] = useState(false)
 
   useEffect(() => {
     const handleResize = () => {
