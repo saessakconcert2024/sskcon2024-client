@@ -1,5 +1,6 @@
 'use client'
 
+import { useEffect, useState } from 'react'
 import { SESSION_COMMENTS } from '@/constants/Session'
 import { Carousel } from 'react-responsive-carousel'
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
@@ -7,7 +8,6 @@ import { suitExtraBold } from '@/_styles/fonts/fonts'
 import SessionSlide from './SessionSlide'
 import style from '../style/Carousel.module.css'
 import '../style/ReactResponsiveCarousel.css'
-import { useEffect, useState } from 'react'
 
 export default function SessionCarousel() {
   const [isCenterMode, setIsCenterMode] = useState(window.innerWidth > 768)
