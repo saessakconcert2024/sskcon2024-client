@@ -14,7 +14,11 @@ export default function SessionCarousel() {
       <Carousel emulateTouch swipeable showStatus={false} showArrows={false}>
         {SESSION_COMMENTS.map(({ title, comments }, idx) => (
           <div className={style.carouselItem}>
-            <h1 className={suitExtraBold.className}>Session{idx + 1}</h1>
+            <h2
+              className={`${suitExtraBold.className} ${style.carouselItemTitle}`}
+            >
+              Session{idx + 1}
+            </h2>
             <SessionSlide title={title} comments={comments} />
           </div>
         ))}
