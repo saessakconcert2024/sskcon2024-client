@@ -22,6 +22,11 @@
     justify-content: flex-start;
 }
 
+.header_logo{
+    color: #000;
+    font-size: 1.2rem;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -33,9 +38,10 @@
 
 
 @media (max-width: 280px) {
-    .image{
-        width: 130px;
+    .header_logo{
+        font-size: 1rem;
     }
 
 
 }
+
