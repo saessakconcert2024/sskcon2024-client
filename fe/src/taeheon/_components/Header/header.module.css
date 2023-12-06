@@ -14,6 +14,13 @@
     box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px;
 }
 
+.header_container,
+.header_container:link,
+.header_container:visited,
+.header_container:hover {
+    text-decoration: none;
+}
+
 .logo_image_container{
     margin: 0 1rem;
     display: flex;
