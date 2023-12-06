@@ -1,24 +1,23 @@
-.container{
-    width: 80%;
+.container {
+  width: 80%;
 }
 
-.content_wrapper{
-    background-color: #ECF9EC;
-    margin-bottom : 1rem;
-    padding : 1rem;
-    border-radius: 1rem;
+.content_wrapper {
+  background-color: #ecf9ec;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 
-.content{
-
-    color: #00A342;
-    font-size: 0.8rem;
-    font-weight: bold;
-    text-align: center;
+.content {
+  color: #00a342;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
 }
 
 @media (min-width: 768px) {
-    .content {
-        font-size: 1.2rem;
-    }
+  .content {
+    font-size: 1.2rem;
+  }
 }

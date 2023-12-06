@@ -1,12 +1,12 @@
-.question_category{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.75rem;
+.question_category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.75rem;
 }
 
 @media (min-width: 768px) {
-    .question_category {
-        font-size: 1.2rem;
-    }
+  .question_category {
+    font-size: 1.2rem;
+  }
 }

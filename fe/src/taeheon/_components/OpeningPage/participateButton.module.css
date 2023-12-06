@@ -1,28 +1,26 @@
-.particiapte_button_container{
-    width: 100%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.particiapte_button_container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.participate_button{
-    width: 21rem;
-    background: #00A342;
-    padding: 0.7rem;
-    border :none;
-    color :#fff;
-    border-radius: 1rem;
-    cursor: pointer;
-    font-size: 1rem;
-    margin: 1rem 0;
+.participate_button {
+  width: 21rem;
+  background: #00a342;
+  padding: 0.7rem;
+  border: none;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 1rem 0;
 }
-
 
 @media (max-width: 280px) {
-    .participate_button {
-      width: 15rem;
-      padding: 0.5rem;
-      font-size: 0.85rem;
-    }
-  
+  .participate_button {
+    width: 15rem;
+    padding: 0.5rem;
+    font-size: 0.85rem;
   }
+}

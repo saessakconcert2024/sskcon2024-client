@@ -1,13 +1,13 @@
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 70%;
-    border: 1px solid #E5E5E5;
-    border-radius: 1rem;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 70%;
+  border: 1px solid #e5e5e5;
+  border-radius: 1rem;
 }
 
-.card{
-    width: 100%;
+.card {
+  width: 100%;
 }
