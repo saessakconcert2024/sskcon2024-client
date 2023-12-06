@@ -10,7 +10,7 @@ export default function SessionSlide({ title, comments }: SessionProps) {
   return (
     <div className={style.sessionSlideContainer}>
       <div className={style.sessionSlideHeader}>
-        <h2>{title}</h2>
+        <h3>{title}</h3>
       </div>
       <div className={style.sessionSlideContent}>
         {comments.map((comment, idx) =>
