@@ -1,7 +1,7 @@
 'use client'
 
-import SessionCarousel from './SessionCarousel'
 import useScrollAnimation from '@/taeheon/_hooks/useScrollAnimation'
+import SessionCarousel from './SessionCarousel'
 import style from '../style/Session.module.css'
 
 export default function Session() {
