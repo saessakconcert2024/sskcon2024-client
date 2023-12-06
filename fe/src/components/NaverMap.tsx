@@ -3,6 +3,8 @@
 import DESTINATION from '@/constants/Destination'
 import { useEffect, useRef } from 'react'
 import style from '../style/Navermap.module.css'
+import { suitBold } from '@/_styles/fonts/fonts'
+import useScrollAnimation from '@/taeheon/_hooks/useScrollAnimation'
 
 function createMarker(location: string, map: any) {
   return new window.naver.maps.Marker({
@@ -13,6 +15,7 @@ function createMarker(location: string, map: any) {
 
 export default function NaverMap() {
   const mapDiv = useRef(null)
+  const { targetRef, animation } = useScrollAnimation()
 
   useEffect(() => {
     if (!mapDiv.current || !window.naver) {
@@ -34,7 +37,16 @@ export default function NaverMap() {
   }, [])
 
   return (
-    <div className={style.mapWrapper}>
+    <div
+      ref={targetRef}
+      className={`${style.mapWrapper} ${animation ? style.animation : ''}`}
+    >
+      <div className={style.mapHeader}>
+        <h2 className={`${suitBold.className} ${style.mapHeaderTitle}`}>
+          2024년 1월 3일 수요일
+        </h2>
+        <h3 className={style.mapHeaderSubtitle}>우리 여기서 만나요!</h3>
+      </div>
       <div className={style.mapContainer}>
         <div ref={mapDiv} className={style.mapSource} />
         <div className={style.mapDescription}>

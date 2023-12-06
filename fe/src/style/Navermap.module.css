@@ -1,8 +1,28 @@
 .mapWrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 2rem;
   margin-top: 3rem;
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.mapHeader {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  text-align: center;
+}
+
+.mapHeaderTitle {
+  font-size: 1.875rem;
+}
+
+.mapHeaderSubtitle {
+  font-size: 1.5rem;
+  color: #525252;
 }
 
 .mapContainer {
@@ -35,13 +55,27 @@
 
 .mapDescription span {
   color: rgb(0 163 66);
-  font-weight: 700;
-  font-size: 1.125rem; /* 18px */
-  line-height: 1.75rem; /* 28px */
+  font-weight: bold;
+  font-size: 1.3rem;
+  line-height: 1.75rem;
   letter-spacing: -1.5px;
 }
 
 .mapDescription p {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   letter-spacing: -1.5px;
+}
+
+.mapWrapper.animation {
+  opacity: 1;
+}
+
+@media (max-width: 500px) {
+  .mapDescription span {
+    font-size: 1.2rem;
+  }
+
+  .mapDescription p {
+    font-size: 0.9rem;
+  }
 }
