@@ -2,9 +2,9 @@
 
 import DESTINATION from '@/constants/Destination'
 import { useEffect, useRef } from 'react'
-import style from '../style/Navermap.module.css'
 import { suitBold } from '@/_styles/fonts/fonts'
 import useScrollAnimation from '@/taeheon/_hooks/useScrollAnimation'
+import style from '../style/Navermap.module.css'
 
 function createMarker(location: string, map: any) {
   return new window.naver.maps.Marker({
