@@ -11,8 +11,17 @@
   display: flex;
   flex-direction: column;
   row-gap: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .carouselItemTitle {
   font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+  .carouselItem {
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
 }

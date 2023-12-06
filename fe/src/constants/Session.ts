@@ -12,7 +12,7 @@ export const SESSION_COMMENTS = [
       {
         user: USER.haebin,
         comment:
-          '저는 이번에 대규모 트래픽을 경험해봤어요. 백엔드 개발자로서 한 발자국 다가간 느낌',
+          '저는 이번에 대규모 트래픽을 경험해봤어요. 백엔드 개발자로서 한 발자국 다가간 느낌..!',
       },
       {
         user: USER.suji,
@@ -21,7 +21,7 @@ export const SESSION_COMMENTS = [
       },
       {
         user: USER.taeheon,
-        comment: '코드리뷰를 처음으로 경험하면서 협업의 가치를 개달았어요',
+        comment: '코드리뷰를 처음으로 경험하면서 협업의 가치를 깨달았어요',
       },
       {
         user: USER.namu,
