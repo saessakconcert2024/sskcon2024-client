@@ -1,20 +1,19 @@
-.container{
-    width: 80%;
+.container {
+  width: 80%;
 }
 
-
-.text_container{
-    font-size: 0.85rem;
-    margin-bottom: 2rem;
+.text_container {
+  font-size: 0.85rem;
+  margin-bottom: 2rem;
 }
 
-.text{
-    text-align: center;
-    margin: 0.3rem 0;
+.text {
+  text-align: center;
+  margin: 0.3rem 0;
 }
 
 @media (min-width: 768px) {
-    .text_container {
-        font-size: 1.5rem;
-    }
+  .text_container {
+    font-size: 1.5rem;
+  }
 }

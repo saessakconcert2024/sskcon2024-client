@@ -11,15 +11,15 @@
   width: 100%;
   background-color: rgb(244 244 244);
   color: rgb(0 163 66);
-  font-size: 13px;
+  font-size: 1.2rem;
   font-weight: 600;
   padding: 14px;
 }
 
 .sessionSlideContent {
   display: grid;
-  row-gap: 32px;
-  padding: 1rem;
+  row-gap: 2rem;
+  padding: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -58,11 +58,26 @@
   display: grid;
   max-width: 80%;
   row-gap: 8px;
-  font-size: 16px;
+  font-size: 1.2rem;
   word-break: keep-all;
 }
 
 .commentContent span {
   font-weight: 700;
   font-size: 17px;
+}
+
+@media (max-width: 500px) {
+  .sessionSlideHeader {
+    font-size: 0.8rem;
+  }
+
+  .sessionSlideContent {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  .commentContent {
+    font-size: 0.8rem;
+  }
 }

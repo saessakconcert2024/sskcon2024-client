@@ -1,33 +1,30 @@
-.logo_container{
-    display: flex;
-    align-items: center;
+.logo_container {
+  display: flex;
+  align-items: center;
 }
 
-.year{
-    margin-top: 0.5rem;
+.year {
+  margin-top: 0.5rem;
 }
 
 .main_text {
-    position: relative;
-    z-index: 5;
-    margin-right: 0.5rem;
+  position: relative;
+  z-index: 5;
+  margin-right: 0.5rem;
 }
 
-
-.sub_text{
-    margin: 0.35rem 0;
+.sub_text {
+  margin: 0.35rem 0;
 }
 
-.section{
-    margin: 1rem 0;
-    z-index: 5;
-    width: 100%;
+.section {
+  margin: 1rem 0;
+  z-index: 5;
+  width: 100%;
 }
-
 
 @media (max-width: 280px) {
-    .sub_text {
-      font-size: 0.75rem;
-    }
-  
+  .sub_text {
+    font-size: 0.75rem;
   }
+}
