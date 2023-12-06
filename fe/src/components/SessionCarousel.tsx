@@ -7,11 +7,33 @@ import { suitExtraBold } from '@/_styles/fonts/fonts'
 import SessionSlide from './SessionSlide'
 import style from '../style/Carousel.module.css'
 import '../style/ReactResponsiveCarousel.css'
+import { useEffect, useState } from 'react'
 
 export default function SessionCarousel() {
+  const [isCenterMode, setIsCenterMode] = useState(window.innerWidth > 768)
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsCenterMode(window.innerWidth > 768)
+    }
+
+    window.addEventListener('resize', handleResize)
+
+    return () => {
+      window.removeEventListener('resize', handleResize)
+    }
+  }, [])
+
   return (
     <div className={style.carouselContainer}>
-      <Carousel emulateTouch swipeable showStatus={false} showArrows={false}>
+      <Carousel
+        infiniteLoop
+        centerMode={isCenterMode}
+        emulateTouch
+        swipeable
+        showStatus={false}
+        showArrows={false}
+      >
         {SESSION_COMMENTS.map(({ title, comments }, idx) => (
           <div className={style.carouselItem}>
             <h2
