@@ -8,7 +8,7 @@ export default function Header() {
     <Link href="/" className={classes.header_container}>
       <div className={classes.logo_image_container}>
         <p className={`${suitRegular.className} ${classes.header_logo}`}>
-          SsaesakCon 2024
+          SaessakCon 2024
         </p>
       </div>
       <Button />

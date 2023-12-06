@@ -5,6 +5,11 @@
   border-bottom: 1px solid #e5e5e5;
 }
 
+.container:last-child{
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
 .question_container {
   margin-bottom: 0.5rem;
   display: flex;
