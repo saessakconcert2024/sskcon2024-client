@@ -30,7 +30,7 @@
   flex-direction: column;
   border-radius: 1rem;
   overflow: hidden;
-  width: 70%;
+  width: 85%;
   height: 60vh;
   border: 1.5px solid rgb(217 217 217);
 }
@@ -71,6 +71,14 @@
 }
 
 @media (max-width: 500px) {
+  .mapHeaderTitle {
+    font-size: 1.6rem;
+  }
+
+  .mapHeaderSubtitle {
+    font-size: 1.4rem;
+  }
+
   .mapDescription span {
     font-size: 1.2rem;
   }
