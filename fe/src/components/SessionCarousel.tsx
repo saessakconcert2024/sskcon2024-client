@@ -10,14 +10,19 @@ import style from '../style/Carousel.module.css'
 import '../style/ReactResponsiveCarousel.css'
 
 export default function SessionCarousel() {
-  const [isCenterMode, setIsCenterMode] = useState(false)
+  const [isCenterMode, setIsCenterMode] = useState(true)
 
   useEffect(() => {
     const handleResize = () => {
       setIsCenterMode(window.innerWidth > 768)
     }
 
+    const checkInitialSize = () => {
+      setIsCenterMode(window.innerWidth > 768)
+    }
+
     window.addEventListener('resize', handleResize)
+    checkInitialSize() // 처음 페이지를 방문했을 때 사이즈 체크
 
     return () => {
       window.removeEventListener('resize', handleResize)
