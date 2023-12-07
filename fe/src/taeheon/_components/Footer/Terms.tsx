@@ -5,7 +5,7 @@ export default function Terms() {
     <div className={classes.terms_wrapper}>
       <a
         className={classes.term_link}
-        href="https://www.inflearn.com/policy/privacy"
+        href="https://been2spring.notion.site/ee1175b72d85402e935fbf00491e6d92?pvs=4"
       >
         개인정보취급방침
       </a>
