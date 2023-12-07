@@ -4,6 +4,7 @@ import PreParticipationInfoPageComponent from '@/taeheon/_components/PreParticip
 import Footer from '@/taeheon/_components/Footer/Footer'
 import NaverMap from '@/components/NaverMap'
 import Session from '@/components/Session'
+import style from '@/style/Main.module.css'
 
 declare global {
   interface Window {
@@ -13,13 +14,15 @@ declare global {
 
 export default function Home() {
   return (
-    <>
+    <div className={style.mainWrapper}>
       <OpeningPageComponent />
-      <Session />
-      <NaverMap />
-      <AskPageComponent />
-      <PreParticipationInfoPageComponent />
+      <div className={style.mainContainer}>
+        <Session />
+        <NaverMap />
+        <AskPageComponent />
+        <PreParticipationInfoPageComponent />
+      </div>
       <Footer />
-    </>
+    </div>
   )
 }

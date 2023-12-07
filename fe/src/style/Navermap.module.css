@@ -1,5 +1,6 @@
 .mapWrapper {
   display: flex;
+  width: 85%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -30,7 +31,7 @@
   flex-direction: column;
   border-radius: 1rem;
   overflow: hidden;
-  width: 85%;
+  width: 100%;
   height: 60vh;
   border: 1.5px solid rgb(217 217 217);
 }
@@ -72,11 +73,11 @@
 
 @media (max-width: 500px) {
   .mapHeaderTitle {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
   }
 
   .mapHeaderSubtitle {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .mapDescription span {
