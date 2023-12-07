@@ -21,7 +21,7 @@ export const SESSION_COMMENTS = [
       },
       {
         user: USER.taeheon,
-        comment: '코드리뷰를 처음으로 경험하면서 협업의 가치를 깨달았어요',
+        comment: '코드리뷰를 처음으로 경험하면서 협업의 가치를 깨달았어요!!',
       },
       {
         user: USER.namu,
@@ -40,7 +40,7 @@ export const SESSION_COMMENTS = [
       {
         user: USER.sessak,
         comment:
-          '저는 개발자 친구를 만들고 싶어요! 저란 Github 맞팔 하지 않으실래요?',
+          '저는 개발자 친구를 만들고 싶어요! 저랑 Github 맞팔 하지 않으실래요?',
       },
       {
         user: USER.hyeonho,
@@ -49,7 +49,7 @@ export const SESSION_COMMENTS = [
       {
         user: USER.namu,
         comment:
-          '이 세션은 자유롭게 대화하고 소통하면서 참가자끼리 서로 네트워킹할 수 있는 세션이에요 이 세션에서 많은 개발자와 소통해보세요',
+          '이 세션은 자유롭게 대화하고 소통하면서 참가자끼리 서로 네트워킹할 수 있는 세션이에요 이 세션에서 많은 개발자와 소통해보세요 :)',
       },
     ],
   },
