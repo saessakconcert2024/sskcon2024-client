@@ -7,12 +7,11 @@
 
 .participate_button {
   width: 21rem;
-  background: #00a342;
+  background: #2c2c2c;
   padding: 0.7rem;
   border: none;
   color: #fff;
   border-radius: 1rem;
-  cursor: pointer;
   font-size: 1rem;
   margin: 1rem 0;
 }
